@@ -1,0 +1,80 @@
+body{ /*FONDO*/
+	background: url(img/fondo11.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.title{ /*TITULO*/
+	color:  #000000;
+	text-align: center;
+	font-size: 30px;
+}
+h1{ /*TITULO*/
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.medium{ /*BOTONES INDICE*/
+	color: #FBFCFC ;
+	font-size:20px;
+	padding: 20px 120px;
+	background: #17202A;	
+}
+.border-radius{ /*BOTONES INDICE*/
+	border-radius: 1000px; 
+}
+div.texto{
+	padding: 20px 200px;
+	text-align: justify;
+	color: #000000;
+	background: #D48CFF;
+}
+div.subtitulo{
+	color: #1102CB;
+	font-size: 50px;
+	background: #FEFEFF;
+	padding: 1px 18px;
+	text-align: center;
+}
+div.texto2{
+	color: #000000;
+	background: #D48CFF;
+	padding: 20px 200px;
+	text-align: justify;
+}
+ 
+div.titulolan{
+	color: #1102CB;
+	font-size: 50px;
+	background: #FEFEFF;
+	padding: 1px 18px;
+	text-align: center;
+}
+
+div.lanzamiento{
+	color: #000000;
+	background: #D48CFF;
+	padding: 20px 200px;
+	text-align: justify;
+}
+
+div.titulocan{
+	color: #1102CB;
+	font-size: 50px;
+	background: #FEFEFF;
+	padding: 1px 18px;
+	text-align: center;
+}
+
+div.cancelacion{
+	color: #000000;
+	background: #D48CFF;
+	padding: 20px 200px;
+	text-align: justify;
+}
+
+button{
+	border-radius: 28px;
+	color: #1102CB;
+	background: #FEFEFF;
+	font-size: 20px;
+	text-align: center;
+}

@@ -1,0 +1,44 @@
+body{ /*FONDO*/
+	background: url(img/fondo11.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.title{ /*TITULO*/
+	color:  #000000;
+	text-align: center;
+	font-size: 30px;
+}
+h1{ /*TITULO*/
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.medium{ /*BOTONES INDICE*/
+	color: #FBFCFC ;
+	font-size:20px;
+	padding: 20px 120px;
+	background: #17202A;	
+}
+.border-radius{ /*BOTONES INDICE*/
+	border-radius: 1000px; 
+}
+
+button{
+	border-radius: 28px;
+	color: #1102CB;
+	background: #FEFEFF;
+	font-size: 20px;
+	text-align: center;
+}
+div.titulolis{
+	color: #1102CB;
+	font-size: 50px;
+	background: #FEFEFF;
+	padding: 1px 18px;
+	text-align: center;
+}
+
+table{
+	width: 50%;
+	height: 300px;
+	color: #FEFEFF;
+}

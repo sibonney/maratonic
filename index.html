@@ -1,0 +1,60 @@
+﻿<html>
+<head>
+	<title>Principal</title>
+	<link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" href="img/logo info.png">
+</head>
+<body><br>
+  <font>
+   <center><a href="index.html"><img src="img/logo info.png" width="200px" height="150px"></a></center>
+	<div class="title">
+	<h1><font color="yellow">Maratonic</font></h1>
+  
+	</div>
+ 
+	<div> <!--Botones indice-->
+		<a href="glee.html" class="btn medium border-radius">Glee</a>
+		<a href="la casa de papel.html" class="btn medium border-radius">La casa de papel</a>
+		<a href="Anne.html" class="btn medium border-radius">Anne with and E</a>
+		<a href="greys.html" class="btn medium border-radius">Greys Anatomy</a>
+
+	</div>
+<br><br><br>
+
+<div class="w3-content w3-section" style="max-width:200px" ><!--con esta linea se modifica el tamaño--><!--Carrusel-->
+  <img class="mySlides" src="img/carrusel1.png" style="width:780%" >
+  <img class="mySlides" src="img/carrusel2.2.jpg" style="width:780%">
+  <img class="mySlides" src="img/carrusel3.jpg" style="width:780%">
+  <img class="mySlides" src="img/carrusel4.jpg" style="width:780%">
+  <img class="mySlides" src="img/carrusel5.png" style="width:780%" >
+  <img class="mySlides" src="img/carrusel6.png" style="width:780%">
+  <img class="mySlides" src="img/carrusel7.jpg" style="width:780%">
+  <img class="mySlides" src="img/carrusel8.8.jpg" style="width:780%">
+  <img class="mySlides" src="img/carrusel9.jpg" style="width:780%">
+  <img class="mySlides" src="img/carrusel10.jpg" style="width:780%">
+  <img class="mySlides" src="img/carrusel11.jpg" style="width:780%">
+  <img class="mySlides" src="img/carrusel12.jpg" style="width:780%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // su duracón es de 5 seg
+}
+ 
+</script><br><br><br>
+
+<center><a href="contacto.html" class="btn medium border-radius">Contacto</a></center>
+
+</body>
+</html>

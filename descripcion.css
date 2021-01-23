@@ -1,0 +1,36 @@
+h1{
+	font-family: aharoni;
+	color:red;
+	font-size:65px;
+	background-color:yellow;
+}
+
+ h3{
+ 	font-family: arial;
+ 	text-align:justify;
+ 	font-size: 25px;
+
+ }
+ 
+button{
+border-radius: 28px;
+font-family: Arial;
+  font-size: 30px;
+  padding: 20px;
+ background-color:0000;
+ font-color: white;
+}
+
+
+h2{
+	font-size: 40;
+background-color:yellow;
+}
+
+body{
+    background:url("img/fondo11.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
